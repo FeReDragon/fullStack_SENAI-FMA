@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/feredragon/fullStack/exerciciosS1/calculadorMedia/calculadorMedia.csproj": {}
+    "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/calculadorMedia/calculadorMedia.csproj": {}
   },
   "projects": {
-    "/home/feredragon/fullStack/exerciciosS1/calculadorMedia/calculadorMedia.csproj": {
+    "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/calculadorMedia/calculadorMedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/feredragon/fullStack/exerciciosS1/calculadorMedia/calculadorMedia.csproj",
+        "projectUniqueName": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/calculadorMedia/calculadorMedia.csproj",
         "projectName": "calculadorMedia",
-        "projectPath": "/home/feredragon/fullStack/exerciciosS1/calculadorMedia/calculadorMedia.csproj",
+        "projectPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/calculadorMedia/calculadorMedia.csproj",
         "packagesPath": "/home/feredragon/.nuget/packages/",
-        "outputPath": "/home/feredragon/fullStack/exerciciosS1/calculadorMedia/obj/",
+        "outputPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/calculadorMedia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/feredragon/.nuget/NuGet/NuGet.Config"

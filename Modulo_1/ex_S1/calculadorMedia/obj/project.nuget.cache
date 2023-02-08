@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NRfhhuKDLR31/fIeI/5vXM7IElTP0v8sl8+OK8vWFACxFCN33h6rO+IL07e+UeyE7WzeEo+BWNuJpcPQ+UmpAQ==",
+  "dgSpecHash": "GnLGLUIRlYIbilFbvD4/fbb/gI76kB5t/bUefQ551zuJepQ+62aOoVeSxZxvScleaDiaM8Zaux6zf2GBaJ20nA==",
   "success": true,
-  "projectFilePath": "/home/feredragon/fullStack/exerciciosS1/calculadorMedia/calculadorMedia.csproj",
+  "projectFilePath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/calculadorMedia/calculadorMedia.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
