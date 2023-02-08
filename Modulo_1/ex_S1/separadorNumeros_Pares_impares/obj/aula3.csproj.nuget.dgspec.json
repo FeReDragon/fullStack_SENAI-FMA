@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/feredragon/fullStack/exerciciosS1/separadorNumeros_Pares_impares/aula3.csproj": {}
+    "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/separadorNumeros_Pares_impares/aula3.csproj": {}
   },
   "projects": {
-    "/home/feredragon/fullStack/exerciciosS1/separadorNumeros_Pares_impares/aula3.csproj": {
+    "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/separadorNumeros_Pares_impares/aula3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/feredragon/fullStack/exerciciosS1/separadorNumeros_Pares_impares/aula3.csproj",
+        "projectUniqueName": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/separadorNumeros_Pares_impares/aula3.csproj",
         "projectName": "aula3",
-        "projectPath": "/home/feredragon/fullStack/exerciciosS1/separadorNumeros_Pares_impares/aula3.csproj",
+        "projectPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/separadorNumeros_Pares_impares/aula3.csproj",
         "packagesPath": "/home/feredragon/.nuget/packages/",
-        "outputPath": "/home/feredragon/fullStack/exerciciosS1/separadorNumeros_Pares_impares/obj/",
+        "outputPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/separadorNumeros_Pares_impares/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/feredragon/.nuget/NuGet/NuGet.Config"

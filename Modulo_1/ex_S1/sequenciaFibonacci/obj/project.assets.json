@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/feredragon/fullStack/exerciciosS1/sequenciaFibonacci/sequenciaFibonacci.csproj",
+      "projectUniqueName": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/sequenciaFibonacci/sequenciaFibonacci.csproj",
       "projectName": "sequenciaFibonacci",
-      "projectPath": "/home/feredragon/fullStack/exerciciosS1/sequenciaFibonacci/sequenciaFibonacci.csproj",
+      "projectPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/sequenciaFibonacci/sequenciaFibonacci.csproj",
       "packagesPath": "/home/feredragon/.nuget/packages/",
-      "outputPath": "/home/feredragon/fullStack/exerciciosS1/sequenciaFibonacci/obj/",
+      "outputPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S1/sequenciaFibonacci/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/feredragon/.nuget/NuGet/NuGet.Config"
