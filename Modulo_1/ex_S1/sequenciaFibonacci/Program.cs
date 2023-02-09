@@ -3,7 +3,7 @@ int x = 1, y = 0, z = 0;
 
 // Solicita ao usuário a quantidade de números da sequência de Fibonacci que deseja exibir
 Console.WriteLine("Insira a quantidade de números da sequência de Fibonacci que deseja exibir:");
-string number = Console.ReadLine();
+string? number = Console.ReadLine();
 
 // Verifica se a entrada é um número inteiro
 if (int.TryParse(number, out n))
