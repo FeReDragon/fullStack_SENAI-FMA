@@ -9,7 +9,7 @@ class Program
         Conta conta = new Conta();
         int opcao = 0;
 
-
+        Console.WriteLine("Bem Vindo ao Lab 365 Bank \n");
         // Pede o número da conta
         Console.WriteLine("Informe o número da conta:");
         conta.NumeroConta = int.Parse(Console.ReadLine());
@@ -57,7 +57,7 @@ class Program
                     conta.ConsultarSaldo();
                     break;
                 case 4:
-                    Console.WriteLine("Obrigado por usar nosso Sistema");
+                    Console.WriteLine("Obrigado por usar Lab 365 Bank");
                     break;
                 default:
                     Console.WriteLine("Opção inválida!");
