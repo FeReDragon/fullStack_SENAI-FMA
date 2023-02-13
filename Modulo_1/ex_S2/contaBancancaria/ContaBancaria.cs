@@ -12,7 +12,7 @@ namespace contaBancaria
     // Classe para a conta bancária
     class Conta
     {
-        // Propriedades da conta
+        // atributos/propriedades da conta
         public int NumeroConta { get; set; }
         public string NomeTitular { get; set; }
         public double Saldo { get; set; }
