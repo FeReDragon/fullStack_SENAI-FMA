@@ -1,0 +1,15 @@
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/bin/Debug/net7.0/ContaBancariaV2
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/bin/Debug/net7.0/ContaBancariaV2.deps.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/bin/Debug/net7.0/ContaBancariaV2.runtimeconfig.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/bin/Debug/net7.0/ContaBancariaV2.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/bin/Debug/net7.0/ContaBancariaV2.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.csproj.AssemblyReference.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.GeneratedMSBuildEditorConfig.editorconfig
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.AssemblyInfoInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.AssemblyInfo.cs
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.csproj.CoreCompileInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/refint/ContaBancariaV2.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ContaBancariaV2.genruntimeconfig.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ContaBancariaV2/obj/Debug/net7.0/ref/ContaBancariaV2.dll
