@@ -1,0 +1,15 @@
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/bin/Debug/net7.0/[M1S05] Ex 3
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/bin/Debug/net7.0/[M1S05] Ex 3.deps.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/bin/Debug/net7.0/[M1S05] Ex 3.runtimeconfig.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/bin/Debug/net7.0/[M1S05] Ex 3.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/bin/Debug/net7.0/[M1S05] Ex 3.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.csproj.AssemblyReference.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.GeneratedMSBuildEditorConfig.editorconfig
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.AssemblyInfoInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.AssemblyInfo.cs
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.csproj.CoreCompileInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/refint/[M1S05] Ex 3.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/[M1S05] Ex 3.genruntimeconfig.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 3/obj/Debug/net7.0/ref/[M1S05] Ex 3.dll
