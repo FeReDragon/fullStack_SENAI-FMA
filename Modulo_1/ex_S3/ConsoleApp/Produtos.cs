@@ -7,11 +7,13 @@ namespace ConsoleApp
 {
     internal class Produto
     {
+        // Atributos da classe
         public string nome;
         protected string cor;
         private double peso;
         private double preco;
-
+        
+        // Métodos da classe
         public void verificarEstoque()
         {
             Console.WriteLine("Verificando estoque, acessando o método da classe produto");

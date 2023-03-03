@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 namespace ConsoleApp
 {
     internal class ProdutoFinanceiro : Produto
+    // A classe "ProdutoFinanceiro" herda da classe "Produto" e tem acesso aos atributos e métodos da classe mãe.
     {
-        public void acesso()
+        public void acesso()// O método "acesso" cria um objeto "ProdutoFinanceiro", imprime o nome e a cor na tela 
+        // e chama os métodos "vender" e "verificarEstoque" do objeto "ProdutoFinanceiro".
         {
             ProdutoFinanceiro PF1 = new ProdutoFinanceiro();
             PF1.nome = "Produto Financeiro";
