@@ -1,0 +1,15 @@
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/bin/Debug/net7.0/ConsoleApp
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/bin/Debug/net7.0/ConsoleApp.deps.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/bin/Debug/net7.0/ConsoleApp.runtimeconfig.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/bin/Debug/net7.0/ConsoleApp.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/bin/Debug/net7.0/ConsoleApp.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.csproj.AssemblyReference.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.AssemblyInfoInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.AssemblyInfo.cs
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/refint/ConsoleApp.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ConsoleApp.genruntimeconfig.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S3/ConsoleApp/obj/Debug/net7.0/ref/ConsoleApp.dll
