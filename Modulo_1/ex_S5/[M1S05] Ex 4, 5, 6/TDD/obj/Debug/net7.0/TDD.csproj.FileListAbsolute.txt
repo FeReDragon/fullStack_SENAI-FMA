@@ -1,0 +1,15 @@
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/bin/Debug/net7.0/TDD
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/bin/Debug/net7.0/TDD.deps.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/bin/Debug/net7.0/TDD.runtimeconfig.json
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/bin/Debug/net7.0/TDD.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/bin/Debug/net7.0/TDD.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.csproj.AssemblyReference.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.GeneratedMSBuildEditorConfig.editorconfig
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.AssemblyInfoInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.AssemblyInfo.cs
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.csproj.CoreCompileInputs.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/refint/TDD.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.pdb
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/TDD.genruntimeconfig.cache
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/Debug/net7.0/ref/TDD.dll

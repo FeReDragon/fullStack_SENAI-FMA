@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/TDD.csproj": {}
+  },
+  "projects": {
+    "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/TDD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/TDD.csproj",
+        "projectName": "TDD",
+        "projectPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/TDD.csproj",
+        "packagesPath": "/home/feredragon/.nuget/packages/",
+        "outputPath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S5/[M1S05] Ex 4, 5, 6/TDD/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/feredragon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
