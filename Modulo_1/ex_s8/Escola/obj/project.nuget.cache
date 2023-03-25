@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "RbrwOfsdqpAR3QWiThC+YvXsGgLN96crEHUgal40w+bfXex8gv5h6QuMka8E698+g3Aizcp9Wu3qtF5/koY1yg==",
+  "success": true,
+  "projectFilePath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_s8/Escola/Escola.csproj",
+  "expectedPackageFiles": [
+    "/home/feredragon/.nuget/packages/microsoft.aspnetcore.openapi/7.0.4/microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
+    "/home/feredragon/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/feredragon/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/feredragon/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/feredragon/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/feredragon/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/feredragon/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
