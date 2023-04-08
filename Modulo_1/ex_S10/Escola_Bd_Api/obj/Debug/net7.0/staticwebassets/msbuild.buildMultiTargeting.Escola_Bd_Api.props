@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Escola_Bd_Api.props" />
+</Project>

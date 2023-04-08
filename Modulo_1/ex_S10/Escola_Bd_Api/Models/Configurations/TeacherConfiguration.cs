@@ -6,11 +6,11 @@ public class TeacherConfiguration : IEntityTypeConfiguration<Teacher>
 {
     public void Configure(EntityTypeBuilder<Teacher> builder)
     {
-        builder.HasKey(t => t.Id);
+        // Remova a configuração da chave primária
+        // builder.HasKey(t => t.Id);
 
-        builder.Property(t => t.Department)
-            .IsRequired()
-            .HasMaxLength(100);
+        builder.Property(t => t.Registration)
+            .IsRequired();
 
         builder.HasOne<User>()
             .WithOne()

@@ -6,23 +6,6 @@ public class StudentConfiguration : IEntityTypeConfiguration<Student>
 {
     public void Configure(EntityTypeBuilder<Student> builder)
     {
-        builder.HasKey(s => s.Id);
-
-        builder.Property(s => s.Name)
-            .IsRequired()
-            .HasMaxLength(100);
-
-        builder.Property(s => s.Email)
-            .IsRequired()
-            .HasMaxLength(100);
-
-        builder.Property(s => s.Cpf)
-            .IsRequired();
-
-        builder.Property(s => s.Password)
-            .IsRequired()
-            .HasMaxLength(100);
-
         builder.Property(s => s.Period)
             .IsRequired();
 
