@@ -9,7 +9,9 @@ namespace Escola_Bd_Api.Models
     {
         public int Id { get; set; }
         public int TeacherId { get; set; }
-        public string? DisciplineName { get; set; }
-        public Teacher? Teacher { get; set; }
+        public string Name { get; set; }
+
+        public Teacher Teacher { get; set; }
+        public ICollection<StudentDiscipline> StudentDisciplines { get; set; }
     }
 }

@@ -9,5 +9,7 @@ namespace Escola_Bd_Api.Models
     {
         public int Period { get; set; }
         public int RA { get; set; }
+
+        public ICollection<StudentDiscipline> StudentDisciplines { get; set; }
     }
 }
