@@ -17,6 +17,12 @@ public class EscolaDbContext : DbContext
     public DbSet<Question> Questions { get; set; }
     public DbSet<Answer> Answers { get; set; }
 
+     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseMySql("Server=localhost;Port=3306;Database=EscolaDbApi;User=root;Password=****;",
+                new MySqlServerVersion(new Version(8, 0, 23)));
+        }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new StudentConfiguration());
