@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Qzn2QD8Mp8wD5CwOSLtxbQfPK1ouTBZyBL0HugLYwZF86OqHBnwxuExZGTWKAhL9MnFSk/qy5DhxyR3NNeXW6g==",
+  "dgSpecHash": "U9IufhL4BUApFMfNhqpI25CJw3vd/orLuqGbKgktUmtCGZdS4bDtCLqGiwLL67d0FhBwcunMps/TkOW09gb6aA==",
   "success": true,
   "projectFilePath": "/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S10/Escola_Bd_Api/Escola_Bd_Api.csproj",
   "expectedPackageFiles": [
+    "/home/feredragon/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/home/feredragon/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/feredragon/.nuget/packages/microsoft.aspnetcore.openapi/7.0.4/microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "/home/feredragon/.nuget/packages/microsoft.entityframeworkcore/7.0.4/microsoft.entityframeworkcore.7.0.4.nupkg.sha512",

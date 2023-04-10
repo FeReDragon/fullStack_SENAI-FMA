@@ -41,3 +41,4 @@
 /home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S10/Escola_Bd_Api/obj/Debug/net7.0/Escola_Bd_Api.pdb
 /home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S10/Escola_Bd_Api/obj/Debug/net7.0/Escola_Bd_Api.genruntimeconfig.cache
 /home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S10/Escola_Bd_Api/obj/Debug/net7.0/ref/Escola_Bd_Api.dll
+/home/feredragon/Documentos/GitHub/fullStack_SENAI-FMA/Modulo_1/ex_S10/Escola_Bd_Api/bin/Debug/net7.0/FluentValidation.dll

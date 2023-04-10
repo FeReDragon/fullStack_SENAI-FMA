@@ -22,7 +22,7 @@ public class EscolaDbContext : DbContext
         optionsBuilder.UseMySql("Server=localhost;Port=3306;Database=EscolaDbApi;User=root;Password=****;",
             new MySqlServerVersion(new Version(8, 0, 23)));
     }
-
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new StudentConfiguration());
