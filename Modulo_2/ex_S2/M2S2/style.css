@@ -1,0 +1,104 @@
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    width: 90%;
+    height: 100%;
+    margin: 30px auto;
+}
+header {
+    display: flex;
+	justify-content: space-between;
+    padding: 10px;
+	width: 100%;
+	height: 100px;
+	align-items: center;     
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.metodologia-item {
+    margin-bottom: 20px;
+}
+.metodologia-item h3 {
+    margin: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+.projeto {
+    display: flex;
+    margin-bottom: 20px;
+}
+.projeto img {
+    width: 50%;
+    height: auto;
+}
+.projeto-texto {
+    width: 50%;
+    padding: 20px;
+}
+.projeto-invertido {
+    flex-direction: row-reverse;
+}
+.depoimento {
+    width: 30%;
+    margin-right: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.depoimento:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.depoimento iframe {
+    width: 100%;
+    height: auto;
+}
+.depoimento-texto {
+    padding: 10px;
+}
+.depoimentos {
+    display: flex;
+    justify-content: space-between;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.formulario input, .formulario textarea, .formulario button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.formulario textarea {
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 100px;
+    max-height: 200px;
+}
