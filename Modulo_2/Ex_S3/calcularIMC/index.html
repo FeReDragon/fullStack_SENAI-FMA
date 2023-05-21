@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <form id="imcForm">
+        <label for="peso">Peso (em quilogramas):</label><br>
+        <input type="number" id="peso" name="peso" required><br>
+        <label for="altura">Altura (em metros):</label><br>
+        <input type="number" id="altura" name="altura" step="0.01" required><br>
+        <input type="submit" value="Calcular IMC">
+    </form>
+    <p id="resultado"></p>
+    <a href="/historicos.html">Ver histórico de IMC</a>
+
+    <script>
+    document.getElementById('imcForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevents the form from being submitted normally
+        let peso = document.getElementById('peso').value;
+        let altura = document.getElementById('altura').value;
+        let imc = calcularIMC(peso, altura);
+        let classificacao = getClassificacaoIMC(imc);
+        let resultado = 'O seu IMC é: ' + imc.toFixed(2) + '. Isso é considerado: ' + classificacao;
+
+        // Local Storage
+        let historico = JSON.parse(localStorage.getItem('historico')) || [];
+        historico.push(resultado);
+        localStorage.setItem('historico', JSON.stringify(historico));
+
+        document.getElementById('resultado').textContent = resultado;
+    });
+
+
+        function calcularIMC(peso, altura) {
+            return peso / (altura * altura);
+        }
+
+        function getClassificacaoIMC(imc) {
+            if (imc < 18.5) {
+                return 'Abaixo do peso';
+            } else if (imc < 25) {
+                return 'Normal';
+            } else if (imc < 30) {
+                return 'Sobrepeso';
+            } else if (imc < 35) {
+                return 'Obesidade Grau I';
+            } else if (imc < 40) {
+                return 'Obesidade Grau II (severa)';
+            } else {
+                return 'Obesidade Grau III (mórbida)';
+            }
+        }
+    </script>
+</body>
+</html>
+
