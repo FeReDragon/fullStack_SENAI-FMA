@@ -1,6 +1,9 @@
-<!DOCTYPE html>
+<html lang="pt-br">
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
 </head>
 <body>
@@ -13,11 +16,11 @@
         <input type="submit" value="Calcular IMC">
     </form>
     <p id="resultado"></p>
-    <a href="/historicos.html">Ver histórico de IMC</a>
+    <a href="/calcularIMC/historicos.html">Ver histórico de IMC</a>
 
     <script>
     document.getElementById('imcForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevents the form from being submitted normally
+        event.preventDefault(); 
         let peso = document.getElementById('peso').value;
         let altura = document.getElementById('altura').value;
         let imc = calcularIMC(peso, altura);
