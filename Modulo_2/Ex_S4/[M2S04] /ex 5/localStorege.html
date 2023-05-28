@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário e LocalStorage</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .form-container, .history-container {
+            width: 50%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Insira seus dados</h2>
+            <form id="meuFormulario">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="idade">Idade:</label><br>
+                <input type="text" id="idade" name="idade"><br>
+                <label for="profissao">Profissão:</label><br>
+                <input type="text" id="profissao" name="profissao"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="history-container">
+            <h2>Histórico de Dados Inseridos</h2>
+            <div id="historico"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Recupera o formulário e o histórico
+        const formulario = document.getElementById("meuFormulario");
+        const historico = document.getElementById("historico");
+
+        //evento p escutar quando o formulário for submetido
+        formulario.addEventListener("submit", function(event) {
+            // Previne recarregar a página
+            event.preventDefault();
+
+            // Cria um objeto com os dados do formulário
+            const meuObjeto = {
+                nome: document.getElementById("nome").value,
+                idade: document.getElementById("idade").value,
+                profissao: document.getElementById("profissao").value
+            };
+
+            // Recupera o objeto do localStorage
+            let objetos = JSON.parse(localStorage.getItem("objetos")) || [];
+            objetos.push(meuObjeto);
+
+            // Salva o localStorage atualizado
+            localStorage.setItem("objetos", JSON.stringify(objetos));
+            // Adiciona os dados ao histórico
+            historico.innerHTML += `Nome: ${meuObjeto.nome}<br>Idade: ${meuObjeto.idade}<br>Profissão: ${meuObjeto.profissao}<br><br>`;
+        });
+        // Quando a página é carregada, recupera os objetos do localStorage e adiciona ao histórico
+        window.onload = function() {
+            const objetos = JSON.parse(localStorage.getItem("objetos")) || [];
+
+            for (let objeto of objetos) {
+                historico.innerHTML += `Nome: ${objeto.nome}<br>Idade: ${objeto.idade}<br>Profissão: ${objeto.profissao}<br><br>`;
+            }
+        };
+    </script>
+</body>
+</html>
