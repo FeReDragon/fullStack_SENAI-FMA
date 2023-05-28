@@ -11,10 +11,10 @@
     <ul id="listaHistorico"></ul>
 
     <script>
-        // Retrieve the results from Local Storage
+        
         let historico = JSON.parse(localStorage.getItem('historico')) || [];
 
-        // Display the results
+  
         let listaHistorico = document.getElementById('listaHistorico');
         historico.forEach(function(resultado) {
             let listItem = document.createElement('li');
