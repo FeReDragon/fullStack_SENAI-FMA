@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgba(247, 188, 28, 0.973);
+    height: 20vh;
+    width: 100%;
+}
+
+nav {
+    background-color: blue;
+    height: 160vh;
+    width: 15%;
+    float: left;
+}
+
+#search-section {
+    display: flex;
+    justify-content: center; /* ajustado aqui para centralizar horizontalmente */
+    align-items: center;
+    margin: 2em auto; /* ajustado aqui para centralizar verticalmente e criar margem em cima e embaixo */
+    width: 50%; /* definido a largura para 50% para que ocupe metade da largura do seu container pai */
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: #f1f1f1;
+}
+
+#search-button {
+    margin-top: 0.5em;
+}
+
+#search-input {
+    width: 100%;
+    flex-grow: 1;
+    margin-right: 1em;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    height: 275px;
+    width: calc(33.33% - 2em);
+    max-width: 275px;
+    align-items: center;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.card h2,
+.card p {
+    margin: 3px auto;
+    text-align: center;
+    max-height: 50px; /* Define uma altura máxima para o subtítulo */
+    overflow: hidden; /* Habilita o overflow para o texto que ultrapassa a altura máxima */
+}
