@@ -2,19 +2,26 @@
 <html lang="pt-BR">
 <head>
     <title>Exibir itens da lista</title>
-    <style>
-        #dados{
-            margin-top:20px;
-        }
-        .nome-ranking {
-            margin: 10px 0;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Lista de Nomes</h1>
-    <div id="dados"></div>
+    <main>
+        <h1>Lista de Nomes</h1>
 
-    <script src="script.js"></script>
+        <select id="filtro">
+            <option value="original">Lista Original</option>
+            <option value="invertida">Lista Invertida</option>
+            <option value="comA">Nomes com a letra 'a'</option>
+            <option value="semA">Nomes sem a letra 'a'</option>
+            <option value="menosDeSeis">Nomes com menos de 6 letras</option>
+        </select>
+
+        <button id="aplicarFiltro">Aplicar Filtro</button>
+
+        <div id="dados"></div>
+
+        <script type="module" src="script.js"></script>
+    </main>
 </body>
 </html>
+
