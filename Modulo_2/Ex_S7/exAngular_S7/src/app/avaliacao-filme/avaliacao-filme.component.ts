@@ -16,12 +16,20 @@ export class AvaliacaoFilmeComponent {
 
   onSubmit() {
     if (this.avaliacaoForm.valid) {
-      console.log(`Você avaliou o filme ${this.avaliacaoForm.value.nomeFilme}`);
-      this.avaliacaoForm.reset();
+        const { nome, email, nomeFilme, avaliacao } = this.avaliacaoForm.value;
+
+        console.log(`Nome: ${nome}`);
+        console.log(`Email: ${email}`);
+        console.log(`Nome do Filme: ${nomeFilme}`);
+        console.log(`Avaliação: ${avaliacao}`);
+
+        console.log(`Você avaliou o filme ${nomeFilme}`);
+        this.avaliacaoForm.reset();
     } else {
-      console.log('Formulário inválido');
+        console.log('Formulário inválido');
     }
-  }
+}
+
 
   onCancel() {
     this.avaliacaoForm.reset();
