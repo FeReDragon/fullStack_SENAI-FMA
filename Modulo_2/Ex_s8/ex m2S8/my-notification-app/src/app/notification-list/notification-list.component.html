@@ -1,0 +1,18 @@
+<!-- Conteúdo da listagem de notificações -->
+
+<div class="list-group">
+  <a href="#" class="list-group-item" *ngFor="let notification of notifications" [ngClass]="{ 'list-group-item-read': notification.read }">
+    <h5 class="list-group-item-heading">{{ notification.title }}</h5>
+    <p class="list-group-item-text">{{ notification.subtitle }}</p>
+    <p class="list-group-item-text">{{ notification.date }}</p>
+    <button class="btn btn-primary" (click)="toggleReadStatus(notification)">
+      <fa-icon [icon]="faEye" [ngClass]="{ 'text-success': notification.read }"></fa-icon>
+    </button>
+  </a>
+</div>
+
+
+
+
+  
+  
