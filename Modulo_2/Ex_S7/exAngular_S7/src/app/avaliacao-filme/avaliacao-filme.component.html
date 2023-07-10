@@ -1,10 +1,10 @@
-<h2>Ficha de Avaliçao</h2>
+<h2>Ficha de Avaliação</h2>
 
 <div class="container">
   <form [formGroup]="avaliacaoForm" (ngSubmit)="onSubmit()">
     <label>
       Nome:
-      <input type="text" formControlName="nome">
+      <input type="text" formControlName="nome" minlength="3" required>
       <div *ngIf="avaliacaoForm.controls.nome.invalid && (avaliacaoForm.controls.nome.dirty || avaliacaoForm.controls.nome.touched)">
         <small>O nome deve ter pelo menos 3 caracteres e é obrigatório.</small>
       </div>
@@ -13,7 +13,7 @@
   
     <label>
       Email:
-      <input type="email" formControlName="email">
+      <input type="email" formControlName="email" required>
       <div *ngIf="avaliacaoForm.controls.email.invalid && (avaliacaoForm.controls.email.dirty || avaliacaoForm.controls.email.touched)">
         <small>O email é inválido ou é um campo obrigatório.</small>
       </div>
@@ -22,7 +22,7 @@
   
     <label>
       Nome do Filme:
-      <input type="text" formControlName="nomeFilme">
+      <input type="text" formControlName="nomeFilme" minlength="3" required>
       <div *ngIf="avaliacaoForm.controls.nomeFilme.invalid && (avaliacaoForm.controls.nomeFilme.dirty || avaliacaoForm.controls.nomeFilme.touched)">
         <small>O nome do filme deve ter pelo menos 3 caracteres e é obrigatório.</small>
       </div>
@@ -31,7 +31,7 @@
   
     <label>
       Avaliação (1-10):
-      <input type="number" formControlName="avaliacao">
+      <input type="number" formControlName="avaliacao" required min="1" max="10">
       <div *ngIf="avaliacaoForm.controls.avaliacao.invalid && (avaliacaoForm.controls.avaliacao.dirty || avaliacaoForm.controls.avaliacao.touched)">
         <small>A avaliação é um campo obrigatório e deve estar entre 1 e 10.</small>
       </div>
