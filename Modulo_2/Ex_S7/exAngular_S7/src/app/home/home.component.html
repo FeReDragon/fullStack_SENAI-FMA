@@ -1,20 +1,29 @@
-<p>home!</p>
+<div class="text-center">
+    <p class="home">home!</p>
+  
+    <label for="nome">Digite seu texto e veja a Magica acontecer</label>
+    <input type="text" id="nome" [(ngModel)]="texto" class="form-control">
+    <p>{{ texto }}</p>
+  </div>
+  
 
-<label for="nome">Digite seu texto e veja a Magica acontecer</label>
-<input type="text" id="nome" [(ngModel)]="texto">
-<p>{{ texto }}</p>
-
-<div *ngIf="loading">
+<div *ngIf="loading" class="loading">
   Carregando...
 </div>
 
-<div *ngIf="!loading">
-  <h2>Top 3 Filmes Populares</h2>
-  <p>Índice: {{ currentIndex }}</p>
-  <p>Filme: {{ filmes[currentIndex]?.nomeFilme }}</p>
-
-  <button (click)="onPrevious()" [disabled]="currentIndex === 0">Filme Anterior</button>
-  <button (click)="onNext()" [disabled]="currentIndex === totalFilmes - 1">Próximo Filme</button>
-</div>
+<div *ngIf="!loading" class="film-container">
+    <div class="film-details">
+      <h2>Top 3 Filmes Populares</h2>
+      <p>Índice: {{ currentIndex }}</p>
+      <p>Filme: {{ filmes[currentIndex]?.nomeFilme }}</p>
+    </div>
+  
+    <div class="film-buttons">
+      <button (click)="onPrevious()" [disabled]="currentIndex === 0" class="btn btn-primary">Filme Anterior</button>
+      <button (click)="onNext()" [disabled]="currentIndex === totalFilmes - 1" class="btn btn-primary">Próximo Filme</button>
+    </div>
+  </div>
+  
+  
 
   
