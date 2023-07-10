@@ -1,45 +1,41 @@
-<h2>Ficha de Avaliação</h2>
-
-<div class="container">
-  <form [formGroup]="avaliacaoForm" (ngSubmit)="onSubmit()">
-    <label>
-      Nome:
-      <input type="text" formControlName="nome" minlength="3" required>
-      <div *ngIf="avaliacaoForm.controls.nome.invalid && (avaliacaoForm.controls.nome.dirty || avaliacaoForm.controls.nome.touched)">
-        <small>O nome deve ter pelo menos 3 caracteres e é obrigatório.</small>
-      </div>
-    </label>
-    <br>
-  
-    <label>
-      Email:
-      <input type="email" formControlName="email" required>
-      <div *ngIf="avaliacaoForm.controls.email.invalid && (avaliacaoForm.controls.email.dirty || avaliacaoForm.controls.email.touched)">
-        <small>O email é inválido ou é um campo obrigatório.</small>
-      </div>
-    </label>
-    <br>
-  
-    <label>
-      Nome do Filme:
-      <input type="text" formControlName="nomeFilme" minlength="3" required>
-      <div *ngIf="avaliacaoForm.controls.nomeFilme.invalid && (avaliacaoForm.controls.nomeFilme.dirty || avaliacaoForm.controls.nomeFilme.touched)">
-        <small>O nome do filme deve ter pelo menos 3 caracteres e é obrigatório.</small>
-      </div>
-    </label>
-    <br>
-  
-    <label>
-      Avaliação (1-10):
-      <input type="number" formControlName="avaliacao" required min="1" max="10">
-      <div *ngIf="avaliacaoForm.controls.avaliacao.invalid && (avaliacaoForm.controls.avaliacao.dirty || avaliacaoForm.controls.avaliacao.touched)">
-        <small>A avaliação é um campo obrigatório e deve estar entre 1 e 10.</small>
-      </div>
-    </label>
-    <br>
-    <div class="button-container">
-      <button type="submit">Enviar</button>
-      <button type="button" (click)="onCancel()">Cancelar</button>
+<form [formGroup]="avaliacaoForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" formControlName="nome">
+    <div *ngIf="avaliacaoForm.get('nome')?.invalid && (avaliacaoForm.get('nome')?.dirty || avaliacaoForm.get('nome')?.touched)">
+      <div *ngIf="avaliacaoForm.get('nome')?.errors?.['required']">Campo obrigatório</div>
+      <div *ngIf="avaliacaoForm.get('nome')?.errors?.['minlength']">O nome deve ter pelo menos 3 caracteres</div>
     </div>
-  </form>
-</div>
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" formControlName="email">
+    <div *ngIf="avaliacaoForm.get('email')?.invalid && (avaliacaoForm.get('email')?.dirty || avaliacaoForm.get('email')?.touched)">
+      <div *ngIf="avaliacaoForm.get('email')?.errors?.['required']">Campo obrigatório</div>
+      <div *ngIf="avaliacaoForm.get('email')?.errors?.['email']">Email inválido</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="nomeFilme">Nome do Filme:</label>
+    <input type="text" id="nomeFilme" formControlName="nomeFilme">
+    <div *ngIf="avaliacaoForm.get('nomeFilme')?.invalid && (avaliacaoForm.get('nomeFilme')?.dirty || avaliacaoForm.get('nomeFilme')?.touched)">
+      <div *ngIf="avaliacaoForm.get('nomeFilme')?.errors?.['required']">Campo obrigatório</div>
+      <div *ngIf="avaliacaoForm.get('nomeFilme')?.errors?.['minlength']">O nome do filme deve ter pelo menos 3 caracteres</div>
+    </div>
+  </div>
+
+  <div>
+    <label for="avaliacao">Avaliação (1-10):</label>
+    <input type="number" id="avaliacao" formControlName="avaliacao">
+    <div *ngIf="avaliacaoForm.get('avaliacao')?.invalid && (avaliacaoForm.get('avaliacao')?.dirty || avaliacaoForm.get('avaliacao')?.touched)">
+      <div *ngIf="avaliacaoForm.get('avaliacao')?.errors?.['required']">Campo obrigatório</div>
+      <div *ngIf="avaliacaoForm.get('avaliacao')?.errors?.['min']">Avaliação mínima: 1</div>
+      <div *ngIf="avaliacaoForm.get('avaliacao')?.errors?.['max']">Avaliação máxima: 10</div>
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="avaliacaoForm.invalid">Enviar</button>
+</form>
+
