@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { ApiService } from '../api.service';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-avaliacao-filme',
@@ -8,42 +7,23 @@ import { ApiService } from '../api.service';
   styleUrls: ['./avaliacao-filme.component.css']
 })
 export class AvaliacaoFilmeComponent {
-  avaliacaoForm = new FormGroup({
-    nome: new FormControl('', [Validators.required, Validators.minLength(3)]),
-    email: new FormControl('', [Validators.required, Validators.email]),
-    nomeFilme: new FormControl('', [Validators.required, Validators.minLength(3)]),
-    avaliacao: new FormControl('', [Validators.required, Validators.min(1), Validators.max(10)])
+  avaliacaoForm = this.formBuilder.group({
+    nome: ['', [Validators.required, Validators.minLength(3)]],
+    email: ['', [Validators.required, Validators.email]],
+    nomeFilme: ['', [Validators.required, Validators.minLength(3)]],
+    avaliacao: ['', [Validators.required, Validators.min(1), Validators.max(10)]]
   });
 
-  avaliacoesProntas: any[] = []; // Inicialize a propriedade com um array vazio
+  showSuccessMessage: boolean = false;
 
-  constructor(private apiService: ApiService) {
-  }
-
-  ngOnInit() {
-    this.apiService.get('avaliacoes-prontas').subscribe(
-      (response: any) => {
-        this.avaliacoesProntas = response;
-      },
-      (error: any) => {
-        console.error('Erro ao obter as avaliações prontas:', error);
-      }
-    );
-  }
+  constructor(private formBuilder: FormBuilder) {}
 
   onSubmit() {
     if (this.avaliacaoForm.valid) {
-      const { nome, email, nomeFilme, avaliacao } = this.avaliacaoForm.value;
-
-      console.log(`Nome: ${nome}`);
-      console.log(`Email: ${email}`);
-      console.log(`Nome do Filme: ${nomeFilme}`);
-      console.log(`Avaliação: ${avaliacao}`);
-
-      console.log(`Você avaliou o filme ${nomeFilme}`);
-      this.avaliacaoForm.reset();
-    } else {
-      console.log('Formulário inválido');
+      this.showSuccessMessage = true;
+      setTimeout(() => {
+        window.location.reload();
+      }, 3000); // Recarrega a página após 3 segundos
     }
   }
 

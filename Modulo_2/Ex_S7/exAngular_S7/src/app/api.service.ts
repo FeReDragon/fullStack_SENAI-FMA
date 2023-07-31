@@ -1,3 +1,4 @@
+// Corrected api.service.ts
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -6,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'https://64d48e0f-6f35-40e1-a3a7-ee489030ebdb.mock.pstmn.io';
+  private apiUrl = 'http://localhost:3000'; 
 
   constructor(private http: HttpClient) {}
 
@@ -16,11 +17,10 @@ export class ApiService {
   }
 
   getFilmes(): Observable<any[]> {
-    return this.get('filmes/get-all');
+    return this.get('avalicao-filmes');
   }
 
   getAvaliacoesProntas(): Observable<any[]> {
-    return this.get('avaliacoes-prontas');
+    return this.get('avalicao-filmes');
   }
 }
-

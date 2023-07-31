@@ -1,0 +1,125 @@
+{
+    "avalicao-filmes": [
+      {
+        "nome": "Luis Andre",
+        "email": "email1@mail.com",
+        "nomeFilme": "Duro de Matar",
+        "avaliacao": 8
+      },
+      {
+        "nome": "Maria Silva",
+        "email": "email2@mail.com",
+        "nomeFilme": "Titanic",
+        "avaliacao": 9
+      },
+      {
+        "nome": "Joao Souza",
+        "email": "email3@mail.com",
+        "nomeFilme": "Jurassic Park",
+        "avaliacao": 7
+      },
+      {
+        "nome": "Ana Santos",
+        "email": "email4@mail.com",
+        "nomeFilme": "Inception",
+        "avaliacao": 10
+      },
+      {
+        "nome": "Pedro Oliveira",
+        "email": "email5@mail.com",
+        "nomeFilme": "Avengers: Endgame",
+        "avaliacao": 8
+      },
+      {
+        "nome": "Mariana Rocha",
+        "email": "email6@mail.com",
+        "nomeFilme": "The Shawshank Redemption",
+        "avaliacao": 9
+      },
+      {
+        "nome": "Lucas Costa",
+        "email": "email7@mail.com",
+        "nomeFilme": "The Godfather",
+        "avaliacao": 10
+      },
+      {
+        "nome": "Carolina Lima",
+        "email": "email8@mail.com",
+        "nomeFilme": "The Dark Knight",
+        "avaliacao": 9
+      },
+      {
+        "nome": "Rafaela Rodrigues",
+        "email": "email9@mail.com",
+        "nomeFilme": "Forrest Gump",
+        "avaliacao": 7
+      },
+      {
+        "nome": "Marcos Almeida",
+        "email": "email10@mail.com",
+        "nomeFilme": "The Matrix",
+        "avaliacao": 8
+      },
+      {
+        "nome": "Camila Pereira",
+        "email": "email11@mail.com",
+        "nomeFilme": "Interstellar",
+        "avaliacao": 9
+      },
+      {
+        "nome": "Gustavo Nunes",
+        "email": "email12@mail.com",
+        "nomeFilme": "Gladiator",
+        "avaliacao": 7
+      },
+      {
+        "nome": "Juliana Castro",
+        "email": "email13@mail.com",
+        "nomeFilme": "Pulp Fiction",
+        "avaliacao": 9
+      },
+      {
+        "nome": "Guilherme Cunha",
+        "email": "email14@mail.com",
+        "nomeFilme": "Inglourious Basterds",
+        "avaliacao": 8
+      },
+      {
+        "nome": "Larissa Oliveira",
+        "email": "email15@mail.com",
+        "nomeFilme": "The Lord of the Rings: The Return of the King",
+        "avaliacao": 10
+      },
+      {
+        "nome": "Fernando Costa",
+        "email": "email16@mail.com",
+        "nomeFilme": "The Avengers",
+        "avaliacao": 7
+      },
+      {
+        "nome": "Isabela Silva",
+        "email": "email17@mail.com",
+        "nomeFilme": "The Lion King",
+        "avaliacao": 9
+      },
+      {
+        "nome": "Roberto Santos",
+        "email": "email18@mail.com",
+        "nomeFilme": "Forrest Gump",
+        "avaliacao": 8
+      },
+      {
+        "nome": "Eduarda Rodrigues",
+        "email": "email19@mail.com",
+        "nomeFilme": "The Dark Knight",
+        "avaliacao": 9
+      },
+      {
+        "nome": "Leonardo Carvalho",
+        "email": "email20@mail.com",
+        "nomeFilme": "Inception",
+        "avaliacao": 7
+      }
+    ]
+  }
+  

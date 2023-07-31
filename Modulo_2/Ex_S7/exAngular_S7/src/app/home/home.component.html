@@ -1,29 +1,49 @@
-<div class="text-center">
-    <p class="home">home!</p>
-  
-    <label for="nome">Digite seu texto e veja a Magica acontecer</label>
-    <input type="text" id="nome" [(ngModel)]="texto" class="form-control">
-    <p>{{ texto }}</p>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+      <h1>Home!</h1>
+      <label for="nome">Digite seu texto e veja a Mágica acontecer</label>
+      <input type="text" id="nome" [(ngModel)]="texto" class="form-control">
+      <p>{{ texto }}</p>
+    </div>
   </div>
-  
 
-<div *ngIf="loading" class="loading">
-  Carregando...
+  <div *ngIf="loading" class="row justify-content-center mt-3">
+    <div class="col-md-6 text-center">
+      <div class="alert alert-info" role="alert">
+        Carregando...
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="!loading">
+    <div class="row justify-content-center mt-3">
+      <div class="col-md-6 text-center">
+        <div class="alert alert-secondary">
+          <h2>Top 3 Filmes Mais Bem Avaliados</h2>
+          <div *ngFor="let filme of top3Filmes; let i = index" [hidden]="currentIndex !== i">
+            <p>Filme: {{ filme?.nomeFilme }}</p>
+            <p>Avaliação: {{ filme?.avaliacao }}</p>
+          </div>
+
+          <div class="film-buttons">
+            <button (click)="onPrevious()" [disabled]="currentIndex === 0" class="btn btn-primary">Filme Anterior</button>
+            <button (click)="onNext()" [disabled]="currentIndex === top3Filmes.length - 1" class="btn btn-primary">Próximo Filme</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+      <div class="col-md-6 text-center">
+        <div class="alert alert-secondary">
+          <h2>Filme Mais Popular</h2>
+          <div *ngIf="mostPopularFilme">
+            <p>Filme: {{ mostPopularFilme.nomeFilme }}</p>
+            <p>Avaliação: {{ mostPopularFilme.avaliacao }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div *ngIf="!loading" class="film-container">
-    <div class="film-details">
-      <h2>Top 3 Filmes Populares</h2>
-      <p>Índice: {{ currentIndex }}</p>
-      <p>Filme: {{ filmes[currentIndex]?.nomeFilme }}</p>
-    </div>
-  
-    <div class="film-buttons">
-      <button (click)="onPrevious()" [disabled]="currentIndex === 0" class="btn btn-primary">Filme Anterior</button>
-      <button (click)="onNext()" [disabled]="currentIndex === totalFilmes - 1" class="btn btn-primary">Próximo Filme</button>
-    </div>
-  </div>
-  
-  
-
-  
