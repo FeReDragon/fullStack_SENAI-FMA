@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { ComidasComponent } from './pages/comidas/comidas.component';
 import { BebidasComponent } from './pages/bebidas/bebidas.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BebidasComponent } from './pages/bebidas/bebidas.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
