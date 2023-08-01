@@ -1,0 +1,188 @@
+{
+    "comidas": [
+        {
+            "id": 1,
+            "titulo": "Pizza",
+            "imagem": "https://imagens-comida-1.com/pizza.jpg",
+            "descricao": "Deliciosa pizza de mussarela",
+            "valor": 25.99
+        },
+        {
+            "id": 2,
+            "titulo": "Hamburguer",
+            "imagem": "https://imagens-comida-2.com/hamburguer.jpg",
+            "descricao": "Hamburguer suculento com queijo",
+            "valor": 18.99
+        },
+        {
+            "id": 3,
+            "titulo": "Salada",
+            "imagem": "https://imagens-comida-3.com/salada.jpg",
+            "descricao": "Salada fresca com alface, tomate e cenoura",
+            "valor": 14.99
+        },
+        {
+            "id": 4,
+            "titulo": "Sushi",
+            "imagem": "https://imagens-comida-4.com/sushi.jpg",
+            "descricao": "Sushi fresco e delicioso",
+            "valor": 32.99
+        },
+        {
+            "id": 5,
+            "titulo": "Macarrão Carbonara",
+            "imagem": "https://imagens-comida-5.com/carbonara.jpg",
+            "descricao": "Macarrão com molho carbonara cremoso",
+            "valor": 21.99
+        },
+        {
+            "id": 6,
+            "titulo": "Frango Assado",
+            "imagem": "https://imagens-comida-6.com/frango_assado.jpg",
+            "descricao": "Frango assado com temperos especiais",
+            "valor": 17.99
+        },
+        {
+            "id": 7,
+            "titulo": "Lasanha",
+            "imagem": "https://imagens-comida-7.com/lasanha.jpg",
+            "descricao": "Lasanha de carne com muito queijo",
+            "valor": 27.99
+        },
+        {
+            "id": 8,
+            "titulo": "Sopa de Legumes",
+            "imagem": "https://imagens-comida-8.com/sopa_legumes.jpg",
+            "descricao": "Sopa quentinha com legumes frescos",
+            "valor": 12.99
+        },
+        {
+            "id": 9,
+            "titulo": "Tacos",
+            "imagem": "https://imagens-comida-9.com/tacos.jpg",
+            "descricao": "Tacos mexicanos com guacamole e salsa",
+            "valor": 19.99
+        },
+        {
+            "id": 10,
+            "titulo": "Risoto de Cogumelos",
+            "imagem": "https://imagens-comida-10.com/risoto_cogumelos.jpg",
+            "descricao": "Risoto cremoso com cogumelos frescos",
+            "valor": 23.99
+        },
+        {
+            "id": 11,
+            "titulo": "Burrito",
+            "imagem": "https://imagens-comida-11.com/burrito.jpg",
+            "descricao": "Burrito mexicano com carne e feijão",
+            "valor": 16.99
+        },
+        {
+            "id": 12,
+            "titulo": "Peixe Grelhado",
+            "imagem": "https://imagens-comida-12.com/peixe_grelhado.jpg",
+            "descricao": "Peixe grelhado com temperos mediterrâneos",
+            "valor": 28.99
+        },
+        {
+            "id": 13,
+            "titulo": "Pudim",
+            "imagem": "https://imagens-comida-13.com/pudim.jpg",
+            "descricao": "Pudim de leite cremoso",
+            "valor": 9.99
+        }
+    ],
+    "bebidas": [
+        {
+            "id": 1,
+            "titulo": "Suco de Laranja",
+            "imagem": "https://imagens-bebida-1.com/suco_laranja.jpg",
+            "descricao": "Suco de laranja natural e refrescante",
+            "valor": 5.99
+        },
+        {
+            "id": 2,
+            "titulo": "Refrigerante",
+            "imagem": "https://imagens-bebida-2.com/refrigerante.jpg",
+            "descricao": "Refrigerante gelado e borbulhante",
+            "valor": 4.99
+        },
+        {
+            "id": 3,
+            "titulo": "Água Mineral",
+            "imagem": "https://imagens-bebida-3.com/agua_mineral.jpg",
+            "descricao": "Água mineral natural e refrescante",
+            "valor": 3.99
+        },
+        {
+            "id": 4,
+            "titulo": "Café Espresso",
+            "imagem": "https://imagens-bebida-4.com/cafe_espresso.jpg",
+            "descricao": "Café espresso encorpado e aromático",
+            "valor": 3.99
+        },
+        {
+            "id": 5,
+            "titulo": "Chá Gelado",
+            "imagem": "https://imagens-bebida-5.com/cha_gelado.jpg",
+            "descricao": "Chá gelado com limão e hortelã",
+            "valor": 4.99
+        },
+        {
+            "id": 6,
+            "titulo": "Mojito",
+            "imagem": "https://imagens-bebida-6.com/mojito.jpg",
+            "descricao": "Coquetel refrescante com hortelã e limão",
+            "valor": 8.99
+        },
+        {
+            "id": 7,
+            "titulo": "Cerveja Artesanal",
+            "imagem": "https://imagens-bebida-7.com/cerveja_artesanal.jpg",
+            "descricao": "Cerveja artesanal com malte selecionado",
+            "valor": 6.99
+        },
+        {
+            "id": 8,
+            "titulo": "Smoothie de Frutas",
+            "imagem": "https://imagens-bebida-8.com/smoothie_frutas.jpg",
+            "descricao": "Smoothie refrescante com mistura de frutas",
+            "valor": 5.99
+        },
+        {
+            "id": 9,
+            "titulo": "Vinho Tinto",
+            "imagem": "https://imagens-bebida-9.com/vinho_tinto.jpg",
+            "descricao": "Vinho tinto encorpado e saboroso",
+            "valor": 14.99
+        },
+        {
+            "id": 10,
+            "titulo": "Água de Coco",
+            "imagem": "https://imagens-bebida-10.com/agua_coco.jpg",
+            "descricao": "Água de coco natural e hidratante",
+            "valor": 4.99
+        },
+        {
+            "id": 11,
+            "titulo": "Limonada",
+            "imagem": "https://imagens-bebida-11.com/limonada.jpg",
+            "descricao": "Limonada gelada e refrescante",
+            "valor": 3.99
+        },
+        {
+            "id": 12,
+            "titulo": "Lassi",
+            "imagem": "https://imagens-bebida-12.com/lassi.jpg",
+            "descricao": "Lassi indiano com iogurte e especiarias",
+            "valor": 6.99
+        },
+        {
+            "id": 13,
+            "titulo": "Milkshake",
+            "imagem": "https://imagens-bebida-13.com/milkshake.jpg",
+            "descricao": "Milkshake cremoso de chocolate",
+            "valor": 7.99
+        }
+    ]
+}

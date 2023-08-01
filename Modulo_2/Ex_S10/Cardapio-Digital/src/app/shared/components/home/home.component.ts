@@ -17,12 +17,12 @@ export class HomeComponent implements OnInit {
   opcoes: Opcao[] = [ // Aqui, tipificamos opcoes como um array de Opcao
     {
       titulo: 'Comidas',
-      imagem: 'URL_DA_IMAGEM_COMIDA',
+      imagem: 'https://www.booska-p.com/wp-content/uploads/2023/02/obesite-augmente-chez-les-jeunes-news-visu-scaled.jpg',
       rota: '/comidas' // aqui, especificamos a rota correspondente para comidas
     },
     {
       titulo: 'Bebidas',
-      imagem: 'URL_DA_IMAGEM_BEBIDA',
+      imagem: 'https://avatars.mds.yandex.net/i?id=075a307715ad1ee9db68eceab92edb3e5f5f9b4e-9682103-images-thumbs&n=13',
       rota: '/bebidas' // aqui, especificamos a rota correspondente para bebidas
     }
   ];
