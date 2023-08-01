@@ -1,1 +1,15 @@
-<p>comidas works!</p>
+<div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let comida of comidas">
+        <div class="card" style="width: 18rem;">
+          <img [src]="comida.imagem" class="card-img-top" [alt]="comida.titulo">
+          <div class="card-body">
+            <h5 class="card-title">{{ comida.titulo }}</h5>
+            <p class="card-text">{{ comida.descricao }}</p>
+            <p class="card-text">{{ comida.valor | currency:'BRL' }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

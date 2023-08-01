@@ -1,1 +1,15 @@
-<p>bebidas works!</p>
+<div class="container">
+    <div class="row">
+      <div *ngFor="let bebida of bebidas" class="col-md-4">
+        <div class="card mb-4">
+          <img class="card-img-top" [src]="bebida.imagem" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ bebida.titulo }}</h5>
+            <p class="card-text">{{ bebida.descricao }}</p>
+            <h6 class="card-subtitle mb-2 text-muted">R$ {{ bebida.valor }}</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
