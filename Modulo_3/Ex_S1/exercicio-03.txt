@@ -1,0 +1,4 @@
+Front-End Refere-se à parte visível de um site ou aplicação, focando na experiência do usuário. Usa frameworks como React, Vue.js e Angular.
+Backend É a parte invisível, "por de tras do panos", tratando da lógica, bancos de dados e processamento de informações. Utiliza tecnologias como Node.js, Django e Ruby on Rails.
+O Fullstack Combina ambos os lados, front-end e backend.
+Em resumoo Front-End mostra interface, o Backend o processo da logica e Fullstack faz ambos.
