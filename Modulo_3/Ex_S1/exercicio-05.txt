@@ -1,0 +1,5 @@
+Os três principais players do mercado de Infraestrutura como Serviço (IaaS) são:
+Amazon Web Services (AWS): Líder de mercado, oferece uma vasta gama de serviços, com destaque para o EC2 e S3.
+Microsoft Azure: Principal concorrente da AWS, integrando-se facilmente com outros produtos da Microsoft.
+Google Cloud Platform (GCP): Conhecida por suas ferramentas de análise e machine learning, tem crescido rapidamente no setor.
+Essas empresas dominam o segmento de IaaS devido à sua abrangência de serviços e inovação constante.
