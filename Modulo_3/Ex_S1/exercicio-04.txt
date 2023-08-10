@@ -1,0 +1,19 @@
+As arquiteturas e infraestruturas em TI referem-se à forma como sistemas e aplicações 
+são projetados e aos recursos que os sustentam. Arquiteturas monolíticas têm aplicativos 
+construídos como uma única unidade, tornando-os mais desafiadores para escalar e 
+atualizar. Em contraste, a Arquitetura Orientada a Serviços (SOA) fragmenta as 
+aplicações em serviços distintos, facilitando a integração e reuso, enquanto os 
+microserviços vão um passo além, com serviços ainda menores que operam de forma 
+independente, oferecendo maior escalabilidade e manutenção simplificada.
+
+Quanto à infraestrutura, o modelo On-Premises implica em recursos de TI instalados 
+fisicamente nas instalações da empresa, oferecendo alto controle, mas também exigindo 
+um grande investimento inicial. A Infraestrutura como Serviço (IaaS) permite que as 
+empresas aluguem capacidades de computação, liberando-as de investir em hardware. 
+A Plataforma como Serviço (PaaS) oferece uma plataforma de desenvolvimento na nuvem, 
+eliminando preocupações com a infraestrutura subjacente. O Software como Serviço (SaaS) 
+fornece software diretamente via web, eliminando a necessidade de instalação e manutenção 
+local. A Edge Computing foca no processamento de dados próximo à fonte, ideal para 
+dispositivos IoT e análise em tempo real. Finalmente, a Computação em Nuvem permite 
+acessar recursos de TI via internet, destacando-se pela flexibilidade, escalabilidade e 
+modelo de pagamento por uso.
