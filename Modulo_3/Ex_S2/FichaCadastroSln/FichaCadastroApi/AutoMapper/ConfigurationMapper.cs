@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FichaCadastroApi.DTO.Ficha;
+using FichaCadastroApi.DTO.Telefone;
 using FichaCadastroApi.Model;
 
 namespace FichaCadastroApi.AutoMapper
@@ -20,6 +21,12 @@ namespace FichaCadastroApi.AutoMapper
 
             CreateMap<DetalheModel, FichaDetalheReadDTO>()
                 .ForMember(dest => dest.Numero, origem => origem.MapFrom(src => src.Nota));
+
+            CreateMap<TelefoneModel, TelefoneReadDTO>()
+                .ForMember(dest => dest.Contato, opt => opt.MapFrom(src => src.Ddd + src.Numero));
+
+                CreateMap<TelefoneCreateDTO, TelefoneModel>();
+                CreateMap<TelefoneUpdateDTO, TelefoneModel>();   
         }
     }
 }
