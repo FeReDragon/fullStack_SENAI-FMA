@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.EntityFrameworkCore;
 
 
+
 namespace FichaCadastroApi.Controllers
 {
     [Route("api/[controller]")]

@@ -16,7 +16,7 @@ builder.Services.AddRouting(options =>
     options.LowercaseQueryStrings = true;
 });
 
-string connectionString = "Server=localhost;Database=FichaCadastro;Trusted_Connection=True;TrustServerCertificate=True;";
+string connectionString = "Server=127.0.0.1,1433;Database=FichaCadastro;User Id=sa;Password=P@ssw0rd123!;TrustServerCertificate=True;";
 
 builder.Services.AddDbContext<FichaCadastroDbContext>(options => options.UseSqlServer(connectionString));
 
