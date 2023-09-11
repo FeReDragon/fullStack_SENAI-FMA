@@ -1,7 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Hosting;
+using FichaCadastroApi.Model;
 
 namespace FichaCadastroApi.HealthCheck
 {
@@ -9,11 +15,13 @@ namespace FichaCadastroApi.HealthCheck
     {
         private readonly FichaCadastroDbContext _fichaCadastroDbContext;
         private readonly IWebHostEnvironment _environment;
+        private readonly IConfiguration _configuration;
 
-        public HealthCheckCustom(FichaCadastroDbContext fichaCadastroDbContext, IWebHostEnvironment environment)
+        public HealthCheckCustom(FichaCadastroDbContext fichaCadastroDbContext, IWebHostEnvironment environment, IConfiguration configuration)
         {
             _fichaCadastroDbContext = fichaCadastroDbContext;
             _environment = environment;
+            _configuration = configuration;
         }
 
         public async Task<HealthCheckResult> CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken = default)
@@ -30,9 +38,10 @@ namespace FichaCadastroApi.HealthCheck
 
             try
             {
-                var returns = _fichaCadastroDbContext.Database.SqlQueryRaw<int>("SELECT 1 AS HealthCheck").ToList().FirstOrDefault();
+                int returns = _fichaCadastroDbContext.Database.ExecuteSqlRaw("SELECT 1 AS HealthCheck");
                 comunicaoSQL = returns == 1;
-                var dados = new { intanciaId = _fichaCadastroDbContext.ContextId.InstanceId, sqlSucesso = comunicaoSQL, connectionString = _fichaCadastroDbContext.Database.GetConnectionString() };
+                var connectionString = _configuration.GetConnectionString("DefaultConnection"); // Obtenha isto do seu appsettings.json
+                var dados = new { sqlSucesso = comunicaoSQL, connectionString = connectionString };
                 objeto.Add("informacao_db", dados);
                 healthStatus = true;
             }
@@ -40,14 +49,13 @@ namespace FichaCadastroApi.HealthCheck
             {
                 exMessage = ex;
             }
-            
+
             if (healthStatus)
             {
                 return await Task.FromResult(HealthCheckResult.Healthy("Tudo certo com a aplicação", data: objeto));
             }
 
             return await Task.FromResult(HealthCheckResult.Unhealthy("Serviço indisponível.", data: objeto, exception: exMessage));
-
         }
     }
 }
