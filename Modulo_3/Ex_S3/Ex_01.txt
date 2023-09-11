@@ -1,1 +1,8 @@
 Descreva o que é HealthCheck ?
+
+O HealthCheck em uma Web API .NET é uma funcionalidade que permite monitorar a saúde da 
+aplicação e suas dependências, como bancos de dados ou serviços externos. Ele é crucial 
+para identificar problemas em tempo real, auxiliando no balanceamento de carga e na 
+auto-recuperação do sistema. A configuração do HealthCheck pode ser customizada e injetada 
+no projeto através do arquivo Program.cs, utilizando a classe AddHealthChecks 
+para definir as verificações e seus parâmetros.
