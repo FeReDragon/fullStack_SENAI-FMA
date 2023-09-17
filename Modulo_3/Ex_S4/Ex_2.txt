@@ -1,0 +1,16 @@
+SOLID é o conjunto de acrônimo mnemônico de quais princípios?
+Explique. Qual o objetivo do SOLID dentro de uma aplicação?
+
+O acrônimo SOLID representa um conjunto de cinco princípios de design de software 
+voltados para tornar o código mais eficiente e manutenível. O "S" é para o Princípio 
+da Responsabilidade Única, que afirma que cada classe deve ter apenas uma tarefa. 
+O "O" é para o Princípio Aberto/Fechado, que sugere que o código deve ser extensível 
+sem necessidade de modificação. O "L" se refere ao Princípio da Substituição de Liskov, 
+que estabelece que objetos de uma superclasse devem ser substituíveis por objetos de 
+subclasses. O "I" aborda o Princípio da Segregação de Interface, indicando que é melhor 
+ter várias interfaces específicas do que uma única genérica. Por último, o "D" é para o 
+Princípio da Inversão de Dependência, que orienta que módulos de alto e baixo nível devem 
+depender de abstrações, não de implementações. O objetivo de aplicar esses princípios 
+é criar um código mais modular e robusto, que seja fácil de entender, manter e estender, 
+especialmente em ambientes colaborativos ou em projetos que precisam evoluir ao longo do 
+tempo.

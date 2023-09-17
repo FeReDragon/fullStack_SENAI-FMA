@@ -1,0 +1,18 @@
+
+Explique o qual o objetivo do Clean Code ser criado?
+Como aplicar boas práticas conforme o Clean Code?
+
+O conceito de Clean Code visa tornar o código mais legível, manutenível, 
+testável e extensível, facilitando tanto o trabalho individual quanto em equipe. 
+Em uma aplicação Web API feita em .NET, o Clean Code é especialmente vital 
+para escalar e manter o sistema eficientemente. Para aplicar boas práticas de 
+Clean Code, é crucial escolher nomes de variáveis e métodos que sejam autoexplicativos 
+e adotar os princípios SOLID para um design robusto. É também importante evitar a 
+duplicação de código seguindo o princípio DRY, criar métodos que tenham uma única 
+responsabilidade, e escrever testes unitários para validar a funcionalidade do código. 
+Comentários devem ser usados com moderação e apenas quando absolutamente necessário. 
+A organização lógica do código, por meio da separação de concerns e da utilização de 
+padrões de design como MVC, também contribui para manter o código limpo. Em resumo, 
+o Clean Code é uma abordagem que, quando bem implementada, facilita o desenvolvimento 
+e a manutenção do codig.
+
