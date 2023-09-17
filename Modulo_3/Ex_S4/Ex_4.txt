@@ -1,0 +1,13 @@
+
+O que e Design Patterns?
+Quais os Catálogos que existem no Design Patterns?
+
+Design Patterns são soluções reutilizáveis para problemas comuns no design de software. 
+Eles oferecem um guia para estruturar o código de forma eficiente e são particularmente 
+úteis como um vocabulário comum entre desenvolvedores. Geralmente, esses padrões são 
+categorizados em três grupos principais: Criacionais, Estruturais e Comportamentais. 
+Os padrões criacionais focam em mecanismos eficientes para criar objetos, como os padrões 
+Singleton e Factory. Os padrões estruturais lidam com a organização e composição de 
+classes e objetos, como é o caso dos padrões Adapter e Bridge. Por último, os padrões 
+comportamentais focam na interação e distribuição de responsabilidades entre objetos, 
+exemplificados pelos padrões Observer e Strategy. 

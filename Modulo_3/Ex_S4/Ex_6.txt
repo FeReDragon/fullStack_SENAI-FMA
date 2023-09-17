@@ -1,0 +1,14 @@
+Explique. O que é um padrão Command ?
+
+O padrão Command é um design comportamental que encapsula uma solicitação como um objeto, 
+permitindo assim parametrizar e enfileirar ações a serem executadas. Basicamente, ele 
+separa o objeto que invoca uma operação do objeto que sabe como realizá-la. O padrão é 
+composto por quatro elementos principais: Command, ConcreteCommand, Invoker e Receiver. 
+O 'Command' é uma interface que define um método para executar uma operação. 
+O 'ConcreteCommand' implementa essa interface e mantém uma referência ao 'Receiver', que é 
+o objeto que realmente sabe como realizar a ação. O 'Invoker' é quem aciona o comando. 
+Uma das grandes vantagens desse padrão é o desacoplamento entre o código que inicia uma 
+ação e o código que realmente a executa. Isso facilita a adição de novos comandos e 
+permite recursos como operações de desfazer e refazer. É especialmente útil em cenários 
+como filas de tarefas, manipulação de interface de usuário e em qualquer contexto onde 
+ações precisam ser adiadas ou enfileiradas.
